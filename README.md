@@ -21,8 +21,10 @@ How to compile:
 1. Clone this repo:
     https://github.com/G47mm/open-cuda-freebsd.git
 
-2. Compile the (uvm_shim.c, i assume you setup linuxulator)
+2. Compile the (uvm_shim.c, i assume you setup linuxulator):
+   
     /compat/linux/usr/bin/gcc -m64 -std=c11 -O2 -fPIC -shared -o uvm_shim.so uvm_shim.c -ldl
 
-    if you must natively run blender (not tested)
+    if you must natively run blender (not tested):
+   
         clang -O2 -fPIC -shared -o uvm_shim_bsd.so uvm_shim_bsd.c -ldl
