@@ -1,5 +1,5 @@
-# open-cuda-freebsd
-freebsd cuda code made from scratch.
+# open-cuda-shim-freebsd
+freebsd cuda-shim code made from scratch.
 
 Well i coded the uvm_shim_bsd.c from the linuxulator shim code (uvm_shim.c) i took from https://www.reddit.com/r/freebsd/comments/1sey5l3/cuda_works/
 
